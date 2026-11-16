@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Admin Dashboard | TravelEase</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">Travel<span>Ease</span></a>
+        <button class="menu-btn" aria-label="Menu">☰</button>
+        <nav class="nav-links">
+          <a class="" href="index.html">Home</a
+          ><a class="" href="destinations.html">Destinations</a
+          ><a class="" href="packages.html">Packages</a
+          ><a class="" href="hotels.html">Hotels</a
+          ><a class="" href="flights.html">Flights</a
+          ><a class="" href="gallery.html">Gallery</a
+          ><a class="" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-outline btn-sm" href="login.html">Login</a
+          ><a class="btn btn-primary btn-sm" href="register.html">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="admin-layout">
+      <aside class="sidebar">
+        <h3>TravelEase Admin</h3>
+        <ul class="side-links">
+          <li><a class="active" href="admin.html">📊 Dashboard</a></li>
+          <li><a href="#">👥 Users</a></li>
+          <li><a href="#">🌍 Destinations</a></li>
+          <li><a href="#">🧳 Packages</a></li>
+          <li><a href="#">🏨 Hotels</a></li>
+          <li><a href="#">✈ Flights</a></li>
+          <li><a href="#">📅 Bookings</a></li>
+          <li><a href="#">⭐ Reviews</a></li>
+          <li><a href="#">🖼 Gallery</a></li>
+          <li><a href="#">✉ Messages</a></li>
+        </ul>
+      </aside>
+      <main class="admin-main">
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+          "
+        >
+          <div>
+            <div class="eyebrow">Overview</div>
+            <h1 style="color: var(--dark)">Dashboard</h1>
+          </div>
+          <a class="btn btn-outline" href="index.html">View website ↗</a>
+        </div>
+        <div class="stat-grid">
+          <div class="stat">
+            <span class="muted">Total users</span><strong>1,250</strong
+            ><span class="rating">+8.2%</span>
+          </div>
+          <div class="stat">
+            <span class="muted">Bookings</span><strong>348</strong
+            ><span class="rating">+12.4%</span>
+          </div>
+          <div class="stat">
+            <span class="muted">Packages</span><strong>42</strong
+            ><span class="muted">Active listings</span>
+          </div>
+          <div class="stat">
+            <span class="muted">Revenue</span><strong>₹125.6K</strong
+            ><span class="rating">+10.8%</span>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Booking</th>
+                <th>Customer</th>
+                <th>Package</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#1008</td>
+                <td>Sarah Kim</td>
+                <td>Dubai Explorer</td>
+                <td>18 Oct</td>
+                <td>$1,998</td>
+                <td>
+                  <span
+                    class="badge"
+                    style="background: #e9f7ee; color: #237a3b; border: 0"
+                    >Confirmed</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>#1007</td>
+                <td>John Miller</td>
+                <td>Bali Escape</td>
+                <td>22 Oct</td>
+                <td>$1,598</td>
+                <td>
+                  <span
+                    class="badge"
+                    style="background: #fff4d6; color: #9a6a00; border: 0"
+                    >Pending</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>#1006</td>
+                <td>Maya Patel</td>
+                <td>Swiss Discovery</td>
+                <td>02 Nov</td>
+                <td>$2,998</td>
+                <td>
+                  <span
+                    class="badge"
+                    style="background: #e9f7ee; color: #237a3b; border: 0"
+                    >Confirmed</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>#1005</td>
+                <td>Daniel Ross</td>
+                <td>NY Highlights</td>
+                <td>11 Nov</td>
+                <td>$1,299</td>
+                <td>
+                  <span
+                    class="badge"
+                    style="background: #e9f7ee; color: #237a3b; border: 0"
+                    >Confirmed</span
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>TravelEase</h3>
+          <p>
+            Discover beautiful places, compare travel options, and plan
+            unforgettable journeys from one simple platform.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="packages.html">Tour Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="flights.html">Flights</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="admin.html">Admin Demo</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>hello@travelease.demo</p>
+          <p>+1 (555) 240-2026</p>
+          <p>Mon–Fri, 9AM–6PM</p>
+        </div>
+      </div>
+      <div class="container copyright">
+        © 2026 TravelEase. Frontend demonstration project.
+      </div>
+    </footer>
+    <div id="toast" class="toast"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

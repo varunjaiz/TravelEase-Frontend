@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hotels | TravelEase</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="logo" href="index.html">Travel<span>Ease</span></a>
+        <button class="menu-btn" aria-label="Menu">☰</button>
+        <nav class="nav-links">
+          <a class="" href="index.html">Home</a
+          ><a class="" href="destinations.html">Destinations</a
+          ><a class="" href="packages.html">Packages</a
+          ><a class="active" href="hotels.html">Hotels</a
+          ><a class="" href="flights.html">Flights</a
+          ><a class="" href="gallery.html">Gallery</a
+          ><a class="" href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn-outline btn-sm" href="login.html">Login</a
+          ><a class="btn btn-primary btn-sm" href="register.html">Sign Up</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="eyebrow">Stay your way</div>
+        <h1>Hotels you'll love</h1>
+        <p>Compare comfortable stays in popular destinations.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="filters">
+          <input
+            id="siteSearch"
+            class="input"
+            placeholder="Search hotels..."
+          /><select class="select">
+            <option>Any location</option>
+            <option>Bali</option>
+            <option>Dubai</option>
+            <option>New York</option></select
+          ><select class="select">
+            <option>Guest rating</option>
+            <option>4+ stars</option>
+            <option>4.5+ stars</option>
+          </select>
+        </div>
+        <div class="grid grid-3">
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.8</span>
+              <h3>Ocean Pearl Resort</h3>
+              <p class="muted">Bali · Beachfront · Breakfast</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹1659<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.7</span>
+              <h3>Skyline Grand</h3>
+              <p class="muted">Dubai · City view · Pool</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹2100<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.6</span>
+              <h3>The Manhattan House</h3>
+              <p class="muted">New York · Central · Gym</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹2400<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.9</span>
+              <h3>Alpine View Lodge</h3>
+              <p class="muted">Switzerland · Mountain view · Spa</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹1900<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.8</span>
+              <h3>Amalfi Blue Hotel</h3>
+              <p class="muted">Italy · Sea view · Terrace</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹2259<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="card searchable">
+            <img
+              class="card-img"
+              src="https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=900&q=80"
+            />
+            <div class="card-body">
+              <span class="rating">★ 4.9</span>
+              <h3>Sunset Santorini</h3>
+              <p class="muted">Greece · Caldera view · Pool</p>
+              <div class="card-meta">
+                <span class="price"
+                  >₹2600<small class="muted"> / night</small></span
+                ><a
+                  class="btn btn-primary btn-sm js-demo"
+                  href="#"
+                  data-message="Hotel booking form opened (demo)."
+                  >Book</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>TravelEase</h3>
+          <p>
+            Discover beautiful places, compare travel options, and plan
+            unforgettable journeys from one simple platform.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="packages.html">Tour Packages</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="flights.html">Flights</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="admin.html">Admin Demo</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>hello@travelease.demo</p>
+          <p>+1 (555) 240-2026</p>
+          <p>Mon–Fri, 9AM–6PM</p>
+        </div>
+      </div>
+      <div class="container copyright">
+        © 2026 TravelEase. Frontend demonstration project.
+      </div>
+    </footer>
+    <div id="toast" class="toast"></div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
